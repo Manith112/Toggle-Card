@@ -11,11 +11,13 @@ toggleSwitch.addEventListener('change', () => {
         month.style.color = "hsl(237, 63%, 64%)";
         Annual.style.color = "hsl(232, 13%, 33%)";
         console.log("Monthly");
+        console.clear();
     }else{
         Annually.style.display = "flex";
         Monthly.style.display= 'none';
         Annual.style.color = "hsl(237, 63%, 64%)";
         month.style.color = "hsl(232, 13%, 33%)";
         console.log("Annually");
+        console.clear();
     }
 })
